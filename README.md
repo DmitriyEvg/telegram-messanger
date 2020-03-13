@@ -21,7 +21,7 @@ step 4
 * systemctl daemon-reload
 * systemctl enable telegram-messanger.service (autostart boot)
 
-# start|stop|restart daemon
+start|stop|restart daemon
 * systemctl (start|stop|restart) telegram-messanger.service
 
 # Instruction include zabbix alerts

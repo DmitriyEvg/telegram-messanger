@@ -1,0 +1,19 @@
+[Unit]
+Description=telegram-messanger service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=
+Restart=on-failure
+RestartSec=5
+
+[Service]
+ExecStart=/usr/bin/bash { PATH_TO messanger.sh }
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=telegram-messanger
+
+[Install]
+WantedBy=multi-user.target

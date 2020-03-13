@@ -3,13 +3,15 @@ telegram-messenger service for sending messages in batches with selection by typ
 
 # Install
 
-# step 1
+step 1
+
 * git clone https://github.com/DmitriyEvg/telegram-messanger.git
 * cd telegram-messanger
 * chmod +x bin/messanger.sh
 * chmod +x bin/sendmsg.sh
 
-# step 2 (required settings bin/massanger.sh)
+step 2 (required settings bin/massanger.sh)
+
 * bot_token="YOUR_VALUE"
 * chat_id="YOUR_VALUE"
 
